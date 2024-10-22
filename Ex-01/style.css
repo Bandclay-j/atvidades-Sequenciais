@@ -1,0 +1,28 @@
+/* Define o estilo básico do corpo da página */
+body {
+    font-family: arial, sans-serif; /* Define a fonte do corpo do texto */
+    background-color: #f0f0f0;
+    margin: 30px;
+    color: #333333;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
