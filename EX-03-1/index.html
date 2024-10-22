@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulário de contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="submit.php">
+                <h1>contato</h1>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="mensagem">mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea>
+
+                <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
